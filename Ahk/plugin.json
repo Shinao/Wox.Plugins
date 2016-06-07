@@ -1,0 +1,12 @@
+﻿{
+    "ID":"BED4FDFC6D3B4085823A60DC76F28844",
+    "ActionKeyword":"ahk",
+    "Name":"Ahk",
+    "Description":"Launch autohotkey script",
+    "Author":"Shinao",
+    "Version":"1.0.0",
+    "Language":"csharp",
+    "Website":"https://github.com/Shinao/Wox.Plugins",
+    "ExecuteFileName":"Ahk.dll",
+    "IcoPath":"icon.png"
+}
