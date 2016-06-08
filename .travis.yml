@@ -1,0 +1,4 @@
+language: csharp
+solution: Wox.Plugins.sln
+install: nuget restore Wox.Plugins.sln
+script: xbuild /p:Configuration=Release Wox.Plugins.sln
