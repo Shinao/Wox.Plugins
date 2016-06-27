@@ -5,5 +5,16 @@ Plugins for [Wox](https://github.com/Wox-launcher/Wox)
 - Need : save and retrieve infos easily
 - Ahk : run autohotkey script from the directory
 
+<br>
 **Preview [Need]**
 ![Debugging gesture](/docs/Wox.Need.gif)
+
+<br>
+**How To Use**
+
+| What        | How           |
+| ------------- |-------------|
+| Save        | `need KeyToSaveWithoutSpaces Value Which Will Be Copied To Clipboard` |
+| Delete      | `need delete KeyToDelete`      |
+| Open file | `need open`      |
+| Reload file | `need reload`     |
