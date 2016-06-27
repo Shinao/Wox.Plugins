@@ -10,10 +10,11 @@ Plugins for [Wox](https://github.com/Wox-launcher/Wox)
 ![Debugging gesture](/docs/Wox.Need.gif)
 
 <br>
-**How To Use**
+**How To Use [Need]**
 
 | What        | How           |
 | ------------- |-------------|
+| Get        | `need KeyNameToCopyValueToClipboard` |
 | Save        | `need KeyToSaveWithoutSpaces Value Which Will Be Copied To Clipboard` |
 | Delete      | `need delete KeyToDelete`      |
 | Open file | `need open`      |
