@@ -14,8 +14,8 @@ Plugins for [Wox](https://github.com/Wox-launcher/Wox)
 
 | What        | How           |
 | ------------- |-------------|
-| Get        | `need KeyNameToCopyValueToClipboard` |
-| Save        | `need KeyToSaveWithoutSpaces Value Which Will Be Copied To Clipboard` |
-| Delete      | `need delete KeyToDelete`      |
+| Get to clipboard        | `need Key` |
+| Save        | `need KeyWithoutSpaces Value` |
+| Delete      | `need delete Key`      |
 | Open file | `need open`      |
 | Reload file | `need reload`     |
