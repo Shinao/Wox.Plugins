@@ -19,3 +19,9 @@ Plugins for [Wox](https://github.com/Wox-launcher/Wox)
 | Delete      | `need delete Key`      |
 | Open file | `need open`      |
 | Reload file | `need reload`     |
+
+<br>
+**For example :**
+- Save server_ip first : `need server_ip 127.0.0.1`
+- `need server_ip` : 127.0.0.1 is now in the clipboard
+- finally delete it : `need delete server_ip`
