@@ -29,13 +29,13 @@
         public List<Result> Query(Query query)
         {
             var splittedQuery = query.Search.Split(new[] { ' ' }, 2);
-            var command = splittedQuery[0].ToLower();
+            var command = splittedQuery[0];
 
             if (splittedQuery.Length == 1)
-                return QueryResultsGetFromKey(command);
+                return QueryResultsGetFromKey(command.ToLower());
 
-            var keyToSearch = splittedQuery[1].ToLower();
-            if (COMMANDS_DELETE.Contains(command))
+            var keyToSearch = splittedQuery[1];
+            if (COMMANDS_DELETE.Contains(command.ToLower()))
                 return QueryResultsDeleteFromKey(keyToSearch);
 
             return QueryResultsSaveFromKeyAndValue(command, keyToSearch);
